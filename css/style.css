@@ -1,0 +1,18 @@
+/* common style for all the pages */
+.navbar-brand > img{
+    width: 100px;
+    height: 60px;
+
+} 
+.navbar{
+    background-color: rgba(236, 223, 81, 0.742);
+}
+#jumbocontainer > img{
+    width: 100%;
+
+    
+}
+
+#homejumbo1{
+    background-color: rgba(225, 141, 23, 0.814);
+}
