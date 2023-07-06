@@ -12,7 +12,6 @@
   <link href="css/style.css" rel="stylesheet">
   <title>Furniture</title>
 </head>
-
 <body>
   <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="index.html"><img src="img/logo.webp" alt="logo"></a>
@@ -23,193 +22,136 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="Home.html">Home <span class="sr-only">(current)</span></a>
+
+        <a class="nav-link" href="Home.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="aboutUs.html">About us</a>
+          <a class="nav-link" href="aboutUs.html">Aboutus</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Products.html">Products</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="AddProducts.html">AddProducts</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="ViewProducts.html">ViewProducts</a>
-        </li>
       </ul>
     </div>
   </nav>
+  <div class="container-fluid">
 
-  <div class="jumbotron jumbotron-fluid" id="homejumbo2">
-    <div class="container-fluid" id="jumbocontainer">
-      <img src="img/jumbo2.jpg">
+    <form class="item-form">
+      <div class="form-group">
+        <label for="InputName"><i><b>Name of the customer</b><i></label>
+        <input type="password" class="form-control" id="InputName">
+      </div>
+      <div class="form-group">
+        <label for="InputEmail1"><i><b>Email address</b></label>
+        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="InputNumber"><i><b>Phone number</b></i></label>
+        <input type="number" class="form-control" id="InputNumber">
+      </div>
+      <div class="form-group">
+        <label for="ImageUrl"><i><b>Image URL</b></i></label>
+        <input type="text" class="form-control" id="ImageUrl">
+      <button type="submit" class="btn btn-sm" id="item-form-btn">Save Item
+      </button>
     </div>
+    
+      <div class="form-group">
+        <label for="Textarea1"><b>Feedback *</b></label>
+        <textarea class="form-control" id="Textarea1" rows="3"></textarea>
+      </div>
+    </form>
   </div>
 
-  <div class="jumbotron jumbotron-fluid" id="homejumbo2">
-    <div class="container-fluid" id="jumbocontainer">
-      <img src="img/jumbo5.png">
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-4">
-        <div class="card" style="width: 18rem;">
-          <img src="img/prod1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="price">$599.99</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-4">
-        <div class="card" style="width: 18rem;">
-          <img src="img/prod2.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="price">$799.99</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-4">
-        <div class="card" style="width: 18rem;">
-          <img src="img/prod3.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="price">$399.99</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-4">
-        <div class="card" style="width: 18rem;">
-          <img src="img/pro4.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="price">$999.99</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-4">
-        <div class="card" style="width: 18rem;">
-          <img src="img/prod5.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="price">$899.99</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-4">
-        <div class="card" style="width: 18rem;">
-          <img src="img/prod6.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="price">$499.99</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-4">
-        <div class="card" style="width: 18rem;">
-          <img src="img/prod7.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="price">$599.99</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-4">
-        <div class="card" style="width: 18rem;">
-          <img src="img/prod8.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="price">$699.99</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-4">
-        <div class="card" style="width: 18rem;">
-          <img src="img/prod9.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="price">$799.99</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
   <div class="container-fliud bg-secondary">
     <div class="row">
       <div class="col text-left">
         <img src="img/footer.jpg" height="100px" width="120px">
       </div>
     </div>
-  <hr class="my-3">
-  <div class="row">
-    <div class="col-2 text-left text-white">
-      <div class="content">
-        <h3>Dining Table</h3>
-        <a class="nav-link text-white" href="#">Glass</a><br>
-        <a class="nav-link text-white" href="#">Wood</a><br>
-        <a class="nav-link text-white" href="#">Oval dining</a><br>
-        <a class="nav-link text-white" href="#">Square dining</a><br>
+
+    <hr class="my-3">
+    <div class="row">
+      <div class="col-2 text-left text-white">
+        <div class="content">
+          <h3>Dining Table</h3>
+          <a class="nav-link text-white" href="#">Glass</a><br>
+          <a class="nav-link text-white" href="#">Wood</a><br>
+          <a class="nav-link text-white" href="#">Oval dining</a><br>
+          <a class="nav-link text-white" href="#">Square dining</a><br>
+        </div>
+
+      </div>
+      <div class="col-2 text-left text-white">
+        <h3>Beds</h3>
+        <a class="nav-link text-white" href="#">wooden beds</a><br>
+        <a class="nav-link text-white" href="#">Bunk bed</a><br>
+        <a class="nav-link text-white" href="#">Mattress</a><br>
+        <a class="nav-link text-white" href="#">Antique beds</a><br>
+      </div>
+
+      <div class="col-2 text-left text-white">
+        <h3>Chairs</h3>
+        <a class="nav-link text-white" href="#">Wooden chair</a><br>
+        <a class="nav-link text-white" href="#">Plastic chair</a><br>
+        <a class="nav-link text-white" href="#">Chaise Lounge</a><br>
+        <a class="nav-link text-white" href="#">Club chair</a><br>
+
+      </div>
+      <div class="col-3 text-left text-white">
+        <h3>Contact Us</h3>
+        <p>Need help? Get in touch with us and we’ll be more than happy to guide you through!</p>
+        <p><u>ranjithnani9989@gmail.com 6281663811</u></p>
+        <p id="contact_us" style="font-size: small;">Furniture Customer Service Reps are available for
+          inquiries Monday to Friday from
+          10AM to 6PM.</p>
+
+      </div>
+      <div class="col-3 text-left text-white">
+        <h3>Always keep exploring more!</h3>
+        <p class="text-mute">Get alerts for new arrivals, offers, and more!</p>
+        <div>
+          <form method="post" action="ranjithnani9989@gmail.com">
+            <input class="bg-light" type="email" placeholder="Email">
+
+          </form>
+        </div>
+        <span class="text-mute" style="font-size: small;">By entering your email, you agree to our</span><span
+          class="text-white"> Terms of Service & Privacy Policy</span>
+        <span class="text-mute" style="font-size: small;">, including receipt of
+          emails and promotions. You can unsubscribe at any time.</span>
       </div>
     </div>
-    <div class="col-2 text-left text-white">
-      <h3>Beds</h3>
-      <a class="nav-link text-white" href="#">wooden beds</a><br>
-      <a class="nav-link text-white" href="#">Bunk bed</a><br>
-      <a class="nav-link text-white" href="#">Mattress</a><br>
-      <a class="nav-link text-white" href="#">Antique beds</a><br>
-    </div>
-    <div class="col-2 text-left text-white">
-      <h3>Chairs</h3>
-      <a class="nav-link text-white" href="#">Wooden chair</a><br>
-      <a class="nav-link text-white" href="#">Plastic chair</a><br>
-      <a class="nav-link text-white" href="#">Chaise Lounge</a><br>
-      <a class="nav-link text-white" href="#">Club chair</a><br>
-    </div>
-    <div class="col-3 text-left text-white">
-      <h3>Contact Us</h3>
-      <p>Need help? Get in touch with us and we’ll be more than happy to guide you through!</p>
-      <p><u>ranjithnani9989@gmail.com 6281663811</u></p>
-      <p id="contact_us" style="font-size: small;">Furniture Customer Service Reps are available for
-        inquiries Monday to Friday from
-        10AM to 6PM.</p>
-    </div>
-    <div class="col-3 text-left text-white">
-      <h3>Always keep exploring more!</h3>
-      <p class="text-mute">Get alerts for new arrivals, offers, and more!</p>
-      <div>
-        <form method="post" action="516Ranjithchinna@gmail.com">
-          <input class="bg-light" type="email" placeholder="Email">
-
-
-
-
-        </form>
-      </div>
-      <span class="text-mute" style="font-size: small;">By entering your email, you agree to our</span><span
-        class="text-white"> Terms of Service & Privacy Policy</span>
-      <span class="text-mute" style="font-size: small;">, including receipt of
-        emails and promotions. You can unsubscribe at any time.</span>
-    </div>
   </div>
-  </div>
+
   </div>
   <hr class="line">
+
   <div class="container-fliud">
     <section class="footer-1">
+
       <div class="row">
         <div class="col-1">
           <a href="#"><embed src="images/icons8-instagram-logo-30.png" class="footerlogo1"></a>
         </div>
+
+
         <div class="col-1">
           <a href="#"> <embed src="images/icons8-twitter-logo-30.png" class="footerlogo2"></a>
         </div>
+
         <div class="col-1">
           <a href="#"> <embed src="images/icons8-facebook-logo-30.png" class="footerlogo2"></a>
         </div>
+
         <div class="col-1">
           <a href="#"> <embed src="images/icons8-linkedin-logo-30.png" class="footerlogo2"></a>
         </div>
+        
         <div class="col-1">
           <a href="#"> <embed src="images/icons8-youtube-logo-30.png" class="footerlogo2"></a>
         </div>
@@ -239,9 +181,9 @@
           </a>
         </div>
 
+
     </section>
   </div>
-
   <head>
     <title>Center-Aligned Text</title>
     <style>
@@ -276,18 +218,14 @@
 </html>
 
 
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js"
-    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"
-    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-    crossorigin="anonymous"></script>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js"
+  integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"
+  integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 
 </html>
